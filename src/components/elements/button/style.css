@@ -1,0 +1,33 @@
+.Button {
+  align-items: center;
+  padding: 12px 16px;
+  margin: 0 auto;
+  display: flex;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-decoration: none;
+  letter-spacing: -0.01em;
+  user-select: none;
+  color: #000;
+  background-color: #eee;
+  border: 2px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.Button_hover, .Button:hover {
+  text-decoration: none;
+  outline: none;
+  background: #ccc;
+}
+
+.Button_focus, .Button:focus {
+  text-decoration: none;
+  outline: none;
+}
